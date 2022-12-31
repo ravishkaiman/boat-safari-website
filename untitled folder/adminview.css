@@ -1,0 +1,75 @@
+
+
+
+.header{
+	font-size:65px;
+	margin: 40px 500px 0px 0px;
+	text-align: left;
+	color:#00e0fef1;
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: 1px;
+
+}
+body {
+	background-image:url("image/boat-trip.jpg");
+	background-repeat:no-repeat;
+	background-size:1800px 1000px;
+}
+
+nav{
+	display:flex;
+	width: 100%;
+
+}
+nav img{
+	display:inline-block;
+
+	margin:0px;
+	width:200px;
+
+	
+}
+.nav-links{
+	flex:1;
+	text-align:left;
+	background-color:rgba(0, 0, 0, 0.651);
+	padding:2px
+
+}
+.nav-links  ul li{
+	list-style:none;
+	display:inline-block;
+			
+}
+.nav-links  ul li a{
+	text-decoration:none;
+	font-size:25px;
+	color:rgb(255, 255, 255);
+	margin:0px 30px;
+	
+}
+.nav-links  ul li a:hover{
+	text-decoration:underline;
+	color:rgb(255, 255, 255);
+}
+.table{
+    background-color: rgba(0, 255, 255, 0.734);
+    width: 100%;
+    border-collapse: collapse;  
+}
+.table td,.table th{
+    padding: 12px 15px;
+    border: 1px solid rgb(13, 0, 0);
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.footer{
+	background:rgba(102, 242, 255, 0.799) ;
+	opacity:1;
+	margin:10px 0px;
+	padding:10px 0px;
+	border-radius:10px ;
+    box-shadow:inset -2px 2px 2px rgba(30, 124, 155, 0.673);
+    }

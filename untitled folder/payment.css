@@ -1,0 +1,151 @@
+
+
+@charset "utf-8";
+/* CSS Document */
+
+/*header section*/
+.header{
+	font-size:60px;
+	font-family:'Audrey', serif;
+	margin: 30px 500px 0px 500px;
+	text-align: center;
+	color:#000000f1;
+	-webkit-text-stroke-color: rgb(0, 0, 0);
+	-webkit-text-stroke-width: 0px;
+	text-shadow: 2px 2px 2px rgb(255, 255, 255);
+
+}
+body {
+	background-image:url("image/hmback.jpg");
+
+	
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+
+	
+}
+nav{
+	display:flex;
+
+	
+
+
+}
+
+
+.constainer{
+    width: 100%;
+    background:rgba(0,0,0,0.5) ;
+	padding: 10px 0px;
+    margin: 28px 0px 0px;
+    border-radius:10px ;
+    box-shadow:inset -2px 2px 2px white;
+}
+
+.constainer1{
+    width: 100%;
+	background:rgba(0, 0, 0, 0.501) ;
+	padding: -20px;
+    border-radius:10px ;
+    box-shadow:inset -2px 2px 2px rgb(255, 255, 255);
+}
+
+.form1{
+	position: relative;
+	left: 500px;
+	color: aliceblue;
+}
+
+.form2{
+	text-align:justify;
+	position: relative;
+	left: 500px;
+	width:500px;
+}
+
+.bookbutton{
+	font-size:30px;
+	font-weight:bold;
+	font-family:'Times New Roman', serif;
+	color:black;
+	display:block;
+	border-width: 1px;
+	margin:20px 0px;
+	position: relative;
+	left: 720px;
+	
+}
+.bookbutton:hover{
+	background-color:#ffffff;
+	display:block;
+}
+
+/*Navigation Bar*/
+.menu-4 {
+	text-align: center;
+	font-weight: 500;
+	background-color:rgba(0, 0, 0, 0.651);
+	width: 100%;
+	padding:2px
+  }
+  .menu-4 * {
+	box-sizing: border-box;
+	-webkit-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+  }
+  .menu-4 li {
+	display: inline-block;
+	list-style: outside none none;
+	margin: 0 1.5em;
+	overflow: hidden;
+  }
+  .menu-4 a {
+	padding: 0.3em 0;
+	color: #ffffff;
+	position: relative;
+	display: inline-block;
+	letter-spacing: 1px;
+	margin: 0;
+	text-decoration: none;
+
+  }
+  .menu-4 a:before,
+  .menu-4 a:after {
+	position: absolute;
+	-webkit-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+  }
+  .menu-4 a:before {
+	bottom: 100%;
+	display: block;
+	height: 3px;
+	width: 100%;
+	content: "";
+	background-color: #e67e22;
+  }
+  .menu-4 a:after {
+	padding: 0.3em 0;
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+	content: attr(data-hover);
+	color: #ffffff;
+	white-space: nowrap;
+  }
+  .menu-4 li:hover a,
+  .menu-4 .current a {
+	transform: translateY(100%);
+  }
+
+/*footer section*/
+.footer{
+	font-family:'Kokila';
+	font-size:12px;
+	color: rgb(255, 255, 255);
+	background:rgba(0, 0, 0, 0.799) ;
+	opacity:1;
+	margin:10px 0px;
+	padding:10px 0px;
+	border-radius:10px ;
+    box-shadow:inset -2px 2px 2px rgba(30, 124, 155, 0.673);
+} 
